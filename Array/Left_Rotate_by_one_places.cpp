@@ -8,7 +8,7 @@ int input(int arr[] , int n)
         cin>>arr[i];
     }
 }
-int sawp_alternate(int arr[] , int n)
+int rotate_at_one(int arr[] , int n)
 {
     for (int i = 0; i < n ; i++)
     {
@@ -29,6 +29,6 @@ int main()
     cout<<"Enter the size of array:";
     cin>>n;
     input(arr,n);
-    sawp_alternate( arr ,n);
+    rotate_at_one( arr ,n);
     display(arr, n);
 }
