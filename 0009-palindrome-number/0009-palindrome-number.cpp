@@ -16,12 +16,6 @@ public:
             rev = rev*10 + d;
             x = x/10;
         }
-
-        if (temp == rev){
-            return true;
-        }
-        else{ 
-            return false;
-        }
+        return temp == rev;
     }
 };
